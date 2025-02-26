@@ -1,0 +1,28 @@
+UNIT TESTING
+-> jest
+
+-- Here we are mocking functions
+
+1. Test get all authors
+
+Create a test case to verify that the getAuthors function returns all author records using jest mock functions.
+
+Ensure the test case checks the length of the returned array.
+
+Verify that the returned array matches the expected author records.
+
+2. Test get author by ID
+
+Create a test case to verify that the getAuthorById function returns the correct author record when provided with a valid ID using jest mock functions.
+
+Verify that the returned object matches the expected author record.
+
+3. Test get author by non-existent ID
+
+Create a test case to verify that the getAuthorById function returns undefined when provided with a non-existent ID using jest mock functions.
+
+4. Test add new author
+
+Create a test case to verify that the addAuthor function successfully adds a new author record using jest mock functions.
+
+Ensure the test case checks the returned object for the new author.

@@ -1,0 +1,41 @@
+API TESTING
+ -> JEST,SUPERTEST
+
+
+1. Test get all reviews
+
+Create a test case to verify that the getAllReviews function returns all review records using jest mock functions.
+
+Verify that the returned array matches the expected review records.
+
+2. Test get review by ID
+
+Create a test case to verify that the getReviewById function returns the correct review record when provided with a valid ID using jest mock functions.
+
+Verify that the returned object matches the expected review record.
+
+3. Test get review by non existing ID
+
+Create a test case to verify that the getReviewById function returns null when provided with a non-existent ID using jest mock functions.
+
+4. Test add new review
+
+Create a test case to verify that the addReview function successfully adds a new review record using jest mock functions.
+
+Ensure the test case checks the returned object for the new review.
+
+5. Test get user by ID
+
+Create a test case to verify that the getUserById function returns the correct user record when provided with a valid ID using jest mock functions.
+
+Verify that the returned object matches the expected user record.
+
+6. Test get user by non-existing ID
+
+Create a test case to verify that the getUserById function returns null when provided with a non-existent ID using jest mock functions.
+
+7. Test add new user
+
+Create a test case to verify that the addUser function successfully adds a new user record using jest mock functions.
+
+Ensure the test case checks the returned object for the new user.

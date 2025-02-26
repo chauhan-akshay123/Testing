@@ -1,0 +1,30 @@
+UNIT TESTING
+-> Jest
+
+1. Test get all movies
+
+   Create a test case to verify that the getMovies function returns all movie records.
+
+   Ensure the test case checks the length of the returned array.
+
+   Verify that the returned array matches the expected movie records.
+
+2. Test get movie by ID
+
+   Create a test case to verify that the getMovieById function returns the correct movie record when provided with a valid ID.
+
+   Verify that the returned object matches the expected movie record.
+
+3. Test get movie by non-existent ID   
+   
+   Create a test case to verify that the getMovieById function returns undefined when provided with a non-existent ID.
+
+4. Test add new movie
+
+   Create a test case to verify that the addMovie function successfully adds a new movie record.
+
+   Ensure the test case checks the returned object for the new movie.
+
+   Verify that the length of the movie array increases by one after adding the new movie.
+
+   Check that the new movie is present in the movie array.  

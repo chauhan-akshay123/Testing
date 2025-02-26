@@ -1,0 +1,30 @@
+UNIT TESTING - FUNCTIONS
+- Jest
+
+1. Test get all books
+
+Create a test case to verify that the getBooks function returns all book records.
+
+Ensure the test case checks the length of the returned array.
+
+Verify that the returned array matches the expected book records.
+
+2. Test get book by ID
+
+Create a test case to verify that the getBookById function returns the correct book record when provided with a valid ID.
+
+Verify that the returned object matches the expected book record.
+
+3. Test get book by non-existent ID
+
+Create a test case to verify that the getBookById function returns undefined when provided with a non-existent ID
+
+4. Test add new book
+
+Create a test case to verify that the addBook function successfully adds a new book record.
+
+Ensure the test case checks the returned object for the new book.
+
+Verify that the length of the book array increases by one after adding the new book.
+
+Check that the new book is present in the book array.
