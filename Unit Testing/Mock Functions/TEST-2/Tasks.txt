@@ -1,0 +1,25 @@
+UNIT TESTING
+
+1. Test get all employees
+
+Create a test case to verify that the getEmployees function returns all employee records using jest mock functions.
+
+Ensure the test case checks the length of the returned array.
+
+Verify that the returned array matches the expected employee records.
+
+2. Test get employee by ID
+
+Create a test case to verify that the getEmployeeById function returns the correct employee record when provided with a valid ID using jest mock functions.
+
+Verify that the returned object matches the expected employee record.
+
+3. Test get employee by non-existent ID
+
+Create a test case to verify that the getEmployeeById function returns undefined when provided with a non-existent ID using jest mock functions.
+
+4. Test add new employee
+
+Create a test case to verify that the addEmployee function successfully adds a new employee record using jest mock functions.
+
+Ensure the test case checks the returned object for the new employee.

@@ -1,0 +1,31 @@
+API ERROR HANDLING TESTING
+
+1. Test get all books with no books
+
+Create a test case to verify that the GET /api/books endpoint returns a 404 status code when no books are found.
+
+Ensure the test case checks that the error message returned is 'No books found.'
+
+2. Test get book by non-existent ID
+
+Create a test case to verify that the GET /api/books/:id endpoint returns a 404 status code when a book with the specified ID is not found.
+
+Ensure the test case checks that the error message returned is 'Book not found.'
+
+3. Test get all reviews with no reviews
+
+Create a test case to verify that the GET /api/reviews endpoint returns a 404 status code when no reviews are found.
+
+Ensure the test case checks that the error message returned is 'No reviews found.'
+
+4. Test get review by non-existent ID
+
+Create a test case to verify that the GET /api/reviews/:id endpoint returns a 404 status code when a review with the specified ID is not found.
+
+Ensure the test case checks that the error message returned is 'Review not found.'
+
+5. Test get user by non-existent ID
+
+Create a test case to verify that the GET /api/users/:id endpoint returns a 404 status code when a user with the specified ID is not found.
+
+Ensure the test case checks that the error message returned is 'User not found.'
